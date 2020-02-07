@@ -1,0 +1,19 @@
+{
+  "name": "moment-playground",
+  "version": "1.0.0",
+  "description": "Playground environment for moment.js",
+  "main": "moment.js",
+  "scripts": {
+    "start": "nodemon moment.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "moment"
+  ],
+  "author": "Calvin Cieslak",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "nodemon": "^2.0.2"
+  }
+}
