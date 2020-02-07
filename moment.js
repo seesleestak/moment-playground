@@ -1,5 +1,9 @@
-const moment = require('moment');
+const moment = require("moment");
 
-const date = '20190731';
-const time = '1130';
-console.log(moment([date, time], 'YYYYMMDD hhmm').format(moment.HTML5_FMT.DATETIME_LOCAL_SECONDS));
+const date = "19910123";
+const time = "1140";
+console.log(
+  moment([date, time], "YYYYMMDDhhmm").format(
+    moment.HTML5_FMT.DATETIME_LOCAL_SECONDS
+  )
+);
